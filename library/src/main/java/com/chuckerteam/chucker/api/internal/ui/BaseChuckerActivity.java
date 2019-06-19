@@ -15,7 +15,7 @@
  */
 package com.chuckerteam.chucker.api.internal.ui;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 public abstract class BaseChuckerActivity extends AppCompatActivity {
 

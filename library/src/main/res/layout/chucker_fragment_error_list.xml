@@ -14,12 +14,12 @@
  ~ See the License for the specific language governing permissions and
  ~ limitations under the License.
  -->
-<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/list"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbars="vertical"
-    app:layoutManager="LinearLayoutManager"
-    tools:listitem="@layout/chucker_list_item_error" />
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                                           xmlns:tools="http://schemas.android.com/tools"
+                                           android:id="@+id/list"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           android:scrollbars="vertical"
+                                           app:layoutManager="LinearLayoutManager"
+                                           tools:listitem="@layout/chucker_list_item_error" />

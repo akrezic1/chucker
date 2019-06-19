@@ -16,23 +16,18 @@
 package com.chuckerteam.chucker.api.internal.ui.transaction
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.widget.SearchView
 import android.text.Html
 import android.text.TextUtils
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.TextView
+import androidx.appcompat.widget.SearchView
 import com.chuckerteam.chucker.R
 import com.chuckerteam.chucker.api.internal.data.entity.HttpTransaction
 import com.chuckerteam.chucker.api.internal.support.highlight
 
 private const val ARG_TYPE = "type"
 
-internal class TransactionPayloadFragment : Fragment(), TransactionFragment, SearchView.OnQueryTextListener {
+internal class TransactionPayloadFragment : androidx.fragment.app.Fragment(), TransactionFragment, SearchView.OnQueryTextListener {
 
     internal lateinit var headers: TextView
     internal lateinit var body: TextView
